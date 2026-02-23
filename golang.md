@@ -12,14 +12,11 @@
 - Automation and DevOps
 - Utilities and stand-alone tools.
 
-## Data Types & Variable
-- uint (can store only positive values) - default int32/64
-- int (can store negative as well) - default int32/int64
-- float (float64) decimal / float values
-- byte (int8)
-- rune (int32)
-- bool (true / false)
-- string (anything inside double quotation)
-- nil (undefined for js bros)
-
 > Semi colon not required in golang.
+
+## Handling JSON
+JSON handling is done using the `encoding/json` package. The key functions are"
+`json.Marshal` -> converts Go structs to JSON (serialization)
+`json.Unmarshal` -> converts JSON to Go structs (deserialisation)
+
+
